@@ -1,0 +1,33 @@
+{
+  "name": "app-using-jest",
+  "version": "1.0.0",
+  "description": "A basic eCommerce app using express.js and mongoDB. Doing this because I want to test using Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest --testTimeout=5000 --detectOpenHandles",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxng0109/app-using-jest.git"
+  },
+  "author": "Joshua Ike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kxng0109/app-using-jest/issues"
+  },
+  "homepage": "https://github.com/kxng0109/app-using-jest#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "mongoose": "^8.9.1",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
