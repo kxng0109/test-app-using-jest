@@ -45,8 +45,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 	```bash
-	git clone https://github.com/kxng0109/test-app.git
-	cd test-app
+	git clone https://github.com/kxng0109/test-app-using-jest.git
+	cd test-app-using-jest
 	```
 
 2. Install dependencies:
